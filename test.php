@@ -13,7 +13,7 @@ Author URI: https://github.com/p-jackson
 */
 
 function hello_test_wp_plugin() {
-	$chosen = 'Hello Test WP Plugin';
+	$chosen = 'Hello Test WP Plugin 2';
 
 	printf(
 		'<p id="test-wp-plugin">%s</p>',
