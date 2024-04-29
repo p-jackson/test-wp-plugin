@@ -12,7 +12,7 @@ Version: 1.0.0
 Author URI: https://github.com/p-jackson
 */
 
-function hello_dolly() {
+function hello_test_wp_plugin() {
 	$chosen = 'Hello Test WP Plugin';
 
 	printf(
