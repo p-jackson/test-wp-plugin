@@ -15,7 +15,7 @@ Author URI: https://github.com/p-jackson
 require_once 'data.php';
 
 function hello_test_wp_plugin() {
-	$chosen = 'Hello Test WP Plugin 2';
+	$chosen = 'Hello Test WP Plugin';
 
 	printf(
 		'<p id="test-wp-plugin">%s</p>',
