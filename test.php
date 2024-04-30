@@ -15,11 +15,13 @@ Author URI: https://github.com/p-jackson
 require_once 'data.php';
 
 function hello_test_wp_plugin() {
-	$chosen = 'Hello Test WP Plugin';
+	global $data_test_wp_plugin;
+	
+	$msg = 'Hello Test WP Plugin';
 
 	printf(
 		'<p id="test-wp-plugin">%s</p>',
-		$chosen . ' ' . $data_test_wp_plugin
+		$msg . ' ' . $data_test_wp_plugin
 	);
 }
 
